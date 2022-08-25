@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="Test_parallel_execution" parallel="tests" >
+
+<test name="Test1_Module1">
+
+<classes>
+<class name="parallel_Testing_testNG.Google"></class>
+</classes>
+
+</test>
+
+<test name="Test2_Module2">
+
+<classes>
+<class name="parallel_Testing_testNG.Facebook"></class>
+</classes>
+
+</test>
+
+<test name="Test3_Module3">
+
+<classes>
+<class name="parallel_Testing_testNG.Amazon"></class>
+</classes>
+
+</test>
+
+
+</suite>
